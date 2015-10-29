@@ -20,11 +20,22 @@
 <%-- jquery URL: https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js
 	 bootstrap URL: https://github.com/twbs/bootstrap/releases/download/v3.3.5/bootstrap-3.3.5-dist.zip 
 --%>
+<!-- Javascript -->
+        <script src="resources/js/jquery-1.8.2.min.js"></script>
+        <script src="resources/js/supersized.3.2.7.min.js"></script>
+        <script src="resources/js/supersized-init.js"></script>
+        <script src="resources/js/scripts.js"></script>
+        
 <script src="${prefix}resources/js/jquery.min.js"></script>
 <link href="${prefix}resources/css/bootstrap.min.css" rel="stylesheet">
 <script src="${prefix}resources/js/bootstrap.min.js"></script>
 <link href="${prefix}resources/css/extra.css" rel="stylesheet">
 <link href="${prefix}resources/css/probando.css" rel="stylesheet">
+<!-- CSS -->
+      <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,700">
+      <link rel="stylesheet" href="resources/css/reset.css">
+      <link rel="stylesheet" href="resources/css/supersized.css">
+      <link rel="stylesheet" href="resources/css/style.css">
 
 <%-- pageExtraScripts --%>
 <c:forEach var="i" items="${pageExtraScripts}">
@@ -89,3 +100,12 @@
 			</c:choose>
 		</div>
 	</nav>
+<ul id="supersized" class="quality" style="visibility: visible;">
+<li class="slide-0 activeslide" style="visibility: visible; opacity: 1;"><a target="_blank"><img src="resources/img/backgrounds/1.jpg" style="width: 1205.71px; left: -529px; top: 0px; height: 844px;"></a></li>
+<li class="slide-1 activeslide" style="visibility: visible; opacity: 1;"><a target="_blank"><img src="resources/img/backgrounds/2.jpg" style="width: 1205.71px; left: -529.5px; top: 0px; height: 844px;"></a></li>
+<li class="slide-2 prevslide" style="visibility: visible; opacity: 1;"><a target="_blank"><img src="resources/img/backgrounds/3.jpg" style="height: 844px; width: 1259.7px; left: -556.5px; top: 0px;"></a></li>
+</a></li></ul>
+
+	
+	
+	

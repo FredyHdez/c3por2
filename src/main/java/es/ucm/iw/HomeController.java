@@ -100,7 +100,10 @@ public class HomeController {
 	public String prueba(Locale locale, Model model) {
 		return "prueba";
 	}
-	
+	@RequestMapping(value = "/login2", method = RequestMethod.GET) 
+	public String login2(Locale locale, Model model) {
+		return "login2";
+	}
 	@RequestMapping(value = "/login", method = RequestMethod.POST) 
 	public String reg(@RequestParam("login") String login, 
 			@RequestParam("pass") String pass,
